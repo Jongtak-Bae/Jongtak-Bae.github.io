@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ShoppingCart</title>
+
+        <!-- Google Fonts integration: http://www.google.com/fonts -->
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sofia&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="style/shoppingCart.css">
+    </head>
+    <meta name="viewport" content="width=1024">
+    <body >
+        <!--Header-->
+        <header>
+            <div class="top-bar">
+                <p class="top-bar-text">
+                    FREE SAME DAY LOCAL PICKUP FOR THE HOLIDAYS & FREE SHIPPING ON ORDER $80+(BEFORE
+                    TAX)*
+                    <a style="text-decoration: underline">LEARN MORE</a>
+                </p>
+            </div>
+            <div class="top-logo">
+              <a href="index.html">
+              <img src="image/logo.png" alt="" class="logo-img"/></a>
+               <a href="index.html">
+              <p class="top-logo-text"> &nbsp Surprises Inside</p> </a>
+            </div>
+            <div class="top-search">
+                <div class="left-top-search">
+                    <img src="image/search.png" alt="" class="top-search-img"/>
+                    <text class="top-search-text">Search</text>
+                </div>
+                <div class="right-top-search">
+                    <img src="image/account.png" alt="" class="top-search-img"/>
+                    <text class="top-search-text">Account &nbsp</text>
+                    <img src="image/cart.png" alt="" class="top-search-img"/>
+                    <text class="top-search-text">Cart</text>
+                </div>
+            </div>
+            <div class="top-line"></div>
+            <div class="top-click-bar" id="top-click-bar">
+            </div>
+        </header>
+        <!--Header end-->
+        <!--hamburger menu-->
+        <div id="hamburger-menu">
+            <span>Home ></span>
+            <span>Shopping Cart</span>
+        </div>
+            <h1>Your cart :<span id="item-number">3</span> items</h1>
+
+        <main>
+            <section id="items-list">
+                <div id="item1" class="items">
+                    <img src="image/Shopping Cart/item1.png" alt="watch">
+                <div class="item-right-info">
+                    <span id="remove-item" class="delete-item">X</span>
+                    <h4>Wood + Leather Watch</h4>
+                    <span>by Love & Lore</span>
+    
+                    <div class="price">
+                        <h6>PRICE</h6>
+                        <p>$107.99</p>
+                    </div>
+                    <div class='quantity-and-total'>
+    
+                        <div class="quantity">
+                            <h6>QUANTITY</h6>
+                            <div class="quantity-number">
+                                <input type="button" value="-">
+                                <div id="quantity">2</div>
+                                <input id="add-item" type="button" value="+">
+    
+                            </div>
+                        </div>
+    
+                        <div class="total">
+                            <h6>TOTAL</h6>
+                            <p>$<span id="total-price">215.98</span></p>
+                        </div>
+                    </div>
+    
+                </div>
+                </div>
+    
+                <div class="items">
+                    <img src="image/Shopping Cart/item2.png" alt="Necklace">
+                <div class="item-right-info">
+                    <span class="delete-item">X</span>
+                    <h4>The Color Of Love Infinity Necklace</h4>
+                    <span>by Jewlr</span>
+    
+                    <div class="price">
+                        <h6>PRICE</h6>
+                        <p>$89.99
+                        </p>
+                    </div>
+                    <div class='quantity-and-total'>
+    
+                        <div class="quantity">
+                            <h6>QUANTITY</h6>
+                            <div class="quantity-number">
+                                <input type="button" value="-">
+                                <div>1</div>
+                                <input type="button" value="+">
+    
+                            </div>
+                        </div>
+    
+                        <div class="total">
+                            <h6>TOTAL</h6>
+                            <p>$89.99</p>
+                        </div>
+                    </div>
+    
+                </div>
+                </div>
+                
+    
+            </section>
+            <section id="right-checkout">
+                <div id="order-summary">
+                    <h3>Order Summary</h3>
+                    <p>Subtotal</p>
+                    <p>$<span id="subtotal">305.97</span></p>
+                    <p>Estimated Tax</p>
+                    <p>$<span id="tax">33.7</span></p>
+                    <p>Order Total</p>
+                    <p>$<span id="order-total">339.67</span></p>
+
+                </div>
+                <div id="order-info">
+                    <img src="image/Shopping Cart/icon-info.svg" alt="">
+                    <p>Your items will be reserved for the next 60 minutes after the “Checkout” button has been pressed.</p>
+                </div>
+                <button id="checkout">Checkout</button>
+    
+            </section>
+    
+
+
+        </main>
+        <h1>Recently Viewed</h1>
+        <section id="recent-view">
+            
+            <div class="recent-item">
+                <img src="image/Shopping Cart/him1.jpg" alt="">
+                <h3>20 Piece Modern Mixologist Bar Set</h3>
+                <p>by Personalcreations</p>
+                <p>$344.99</p>
+            </div>
+            <div class="recent-item">
+                <img src="image/Shopping Cart/him2.jpg" alt="">
+                <h3>Men's 4 Piece Shave Set</h3>
+                <p>by Herschel Supply Co</p>
+                <p>$56.99</p>
+            </div>
+            <div class="recent-item">
+                <img src="image/Shopping Cart/him3.jpg" alt="">
+                <h3>Leather Travel & Grooming Set</h3>
+                <p>by RedEnvelope</p>
+                <p>$107.99</p>
+            </div>
+            <div class="recent-item">
+                <img src="image/Shopping Cart/him4.jpg" alt="">
+                <h3>Special Reserve Cigar Humidor</h3>
+                <p>by Personalcreations</p>
+                <p>$77.99</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <ul><li class="feature-item">
+                <img src="image/Shopping Cart/icon-clock-fast.svg" alt="">
+                <p>Quick and easy store pickup</p>
+            </li>
+            <li class="feature-item">
+                <img src="image/Shopping Cart/icon-shipping-fast.svg" alt="">
+                <p>Free shipping over $35</p>
+            </li>
+            <li class="feature-item">
+                <img src="image/Shopping Cart/icon-dollar.svg" alt="">
+                <p>Low Price Guarantee</p>
+            </li>
+            <li class="feature-item">
+                <img src="image/Shopping Cart/icon-gift.svg" alt="">
+                <p>Latest and Greatest gifts</p>
+            </li></ul>
+        </section>
+
+       
+        <!--Footer-->
+        <div class="bottom">
+            <div class="bottom-1">
+                <div
+                    style="font-size:1.314vw; font-family: 'Open Sans', sans-serif;font-weight: bold; margin-bottom: 1.576vw;">COMPANY</div>
+                <div
+                    style="font-size:1.051vw; font-family: 'Open Sans', sans-serif;line-height: 2.365vw;">
+                    <a href="AboutUs.html">About us</a><br>
+                    <a>Customer Reviews</a><br>
+                    <a>Terms and Conditions</a><br>
+                    <a>Privacy Policy</a><br>
+                    <a href="Covid.html">COVID-19 Update</a>
+                </div>
+            </div>
+            <div class="bottom-2">
+                <div
+                    style="font-size:1.314vw; font-family: 'Open Sans', sans-serif;font-weight: bold; margin-bottom: 1.576vw;">ORDERING</div>
+                <div
+                    style="font-size:1.051vw; font-family: 'Open Sans', sans-serif;line-height: 2.365vw;">
+                    <a href="Shipping.html">Shipping Information</a><br>
+                    <a>One-Year Warranty</a><br>
+                    <a>Surprises Inside Gift Cards</a><br>
+                    <a>VIP Rewards</a><br>
+                    <a>PaymentPlans</a>
+                </div>
+            </div>
+            <div class="bottom-3">
+                <div
+                    style="font-size:1.314vw;font-weight: bold; font-family: 'Open Sans', sans-serif; margin-bottom: 0.263vw;">JOIN THE LIST & GET 10% OFF ONLINE</div>
+                <input
+                    style="width: 75%;height: 2.627vw;font-size:1.576vw"
+                    placeholder="Enter your email"/>
+                <button
+                    style="width: 20%;height: 3.1vw;font-size:1.051vw;color:white;background-color: #DC977C;margin-bottom:1.051vw;cursor: pointer;">SUBSCRIBE</button>
+                <div
+                    style="font-size:1.314vw; font-family: 'Open Sans', sans-serif;font-weight: bold; margin-bottom: 1.051vw;">STAY CONNECTED</div>
+                <div class="bottom-img" id="bottom-img"></div>
+            </div>
+        </div>
+        <!--Footer end-->
+
+<!-- The Modal -->
+<div id="Address-form" class="modal">
+    <div id="model-wrap">
+        <span class="close">&times;</span>
+          <!-- Modal content -->
+  <div class="modal-content">
+   
+    <h2>Add Address and Payment</h2>
+    <h3>Order Total:<span>$100.07</span></h3>
+    <p>Provice</p>
+    <select name="provice" id="provice">
+        <option value="Alberta">Alberta</option>
+        <option value="British Columbia">British Columbia</option>
+        <option value="Nova Scotia">Nova Scotia</option>
+        <option value="Ontario">Ontario</option>
+    </select>
+    <p>City</p>
+    <select name="city" id="city">
+        <option value="London">London</option>
+        <option value="Ottawa">Ottawa</option>
+        <option value="Hamilton">Hamilton</option>
+        <option value="Toronto">Toronto</option>
+    </select>
+    <p>Address</p>
+    <input type="text" placeholder="Your address">
+    <p>Postal Code</p>
+    <input type="text" placeholder="Postal code">
+    <input id="buy-button" type="submit" value="Buy">
+  </div>
+
+
+    </div>
+   
+
+
+
+</div>
+
+        
+    </body>
+    <script>
+        //checkout event handler
+        var checkoutButton = document.querySelector('#checkout');
+        var modelForm = document.querySelector('.modal')
+
+        var closeButton = document.querySelector('.close');
+
+        var buyButton = document.querySelector('#buy-button');
+        var modelContent = document.querySelector('.modal-content');
+
+
+        console.log(modelForm)
+        checkoutButton.addEventListener('click', openForm);
+        closeButton.addEventListener('click', closeModel);
+        buyButton.addEventListener('click', submitForm);
+
+        function submitForm(){
+            modelContent.innerHTML = '<img style ="width:50px" src="image/Shopping Cart/icon-completed.svg" /><p>Your purchase has been completed!</p>'
+        }
+
+        function openForm(){
+            modelForm.style.display = "block";
+        }
+
+        function closeModel(){
+            modelForm.style.display = 'none';
+        }
+
+         //add item event handler
+        var addItem =document.querySelector('#add-item');
+        var quantity = document.querySelector('#quantity');
+        var totalPrice = document.querySelector('#total-price');
+        var subtotal = document.querySelector('#subtotal');
+        var itemNumber = document.querySelector('#item-number');
+        //console.log(subtotal)
+        var tax = document.querySelector('#tax');
+        var orderTotal = document.querySelector('#order-total')
+        var removeItem=document.querySelector('#remove-item');
+        var item1 = document.querySelector('#item1');
+
+     
+        addItem.addEventListener('click', addItems);
+        removeItem.addEventListener('click', removeItems);
+
+        function addItems(){
+            //alert('hello world')
+            quantity.innerHTML=parseInt(quantity.innerHTML)+1;
+            totalPrice.innerHTML = (parseFloat(totalPrice.innerHTML)+107.99).toFixed(2);
+            subtotal.innerHTML =  (parseFloat(subtotal.innerHTML)+107.99).toFixed(2);
+            tax.innerHTML = (parseFloat(tax.innerHTML)+33.7).toFixed(2);
+            orderTotal.innerHTML = (parseFloat(orderTotal.innerHTML)+33.7).toFixed(2);
+            itemNumber.innerHTML = parseInt(quantity.innerHTML)+1;
+
+
+        }
+
+        function removeItems(){
+            item1.innerHTML='';
+            subtotal.innerHTML = '89.99';
+            tax.innerHTML ='10.8';
+            orderTotal.innerHTML = '100.07';
+            itemNumber.innerHTML = 1;
+
+        }
+
+    var topText=["Top Gift","For Her","For Him","Kids Gifts","Personalised Gift","Sale!","The Company"]
+    var topdiv=  document.getElementById("top-click-bar")
+    for (var i = 0; i < 7; i++) {
+      var re = document.createElement("a");
+      re.style.fontSize="1.839vw"
+      re.style.lineHeight="3.153vw"
+      re.innerText = topText[i];
+      topdiv.appendChild(re)
+    }
+
+    var navItem = document.querySelector('#top-click-bar').getElementsByTagName('a');
+    console.log(navItem);
+    navItem[1].setAttribute('href','ForHer.html');
+    navItem[2].setAttribute('href','ForHim.html');
+    navItem[6].setAttribute('href','AboutUs.html');
+    
+
+    var bottomImg=["image/facebook.png","image/twitter.png","image/pinterest.png","image/instagram.png"]
+    var _bottomImg = document.getElementById("bottom-img")
+    for(var i=0;i<4;i++){
+      var img =document.createElement("img");
+      img.src=bottomImg[i];
+      img.style.borderRadius="50%"
+      img.style.width="4.204vw";
+      img.style.height="4.204vw";
+      img.style.marginRight="1.576vw";
+      _bottomImg.append(img)
+    }
+
+
+
+       
+
+    </script>
+</html>

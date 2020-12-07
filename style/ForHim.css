@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+a:link{text-decoration:none; color:black }
+a:visited{text-decoration:none; color:black}
+a:hover{text-decoration:none;color:#B81226}
+a:active{text-decoration:none;color:#B81226}
+.top-bar {
+  background-color: #e9c5ac;
+  height: 3.153vw;
+  font-family: 'Open Sans', sans-serif;
+}
+.top-bar-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3vw;
+  line-height: 3.153vw;
+  text-align: center;
+  cursor: pointer;
+}
+.top-logo {
+  margin-top: 1.314vw;
+  height: 6.831vw;
+  display: flex;
+  justify-content: center;
+}
+.logo-img {
+  height: 7vw;
+  width: 7vw;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.top-logo-text {
+  font-family: 'Sofia', cursive;
+  font-size: 3.678vw;
+  line-height: 8.831vw;
+  color: #B81226;
+  cursor: pointer;
+}
+.top-search {
+  height: 4.204vw;
+}
+.left-top-search {
+  margin-left: 2.627vw;
+  float: left;
+}
+.top-search-img {
+  height:3.153vw;
+  width: 3.153vw;
+  vertical-align:middle;
+}
+.top-search-text {
+  font-family: 'Sofia', cursive;
+  font-size: 1.314vw;
+  line-height: 3.153vw;
+  color: #605454;
+  cursor: pointer;
+}
+.right-top-search {
+  float: right;
+  margin-right: 1.576vw;
+}
+.top-line {
+  border: 0.053vw solid black;
+}
+.top-click-bar {
+  width: 80rpx;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  justify-content: space-between;
+  margin:0 5.255vw;
+  cursor: pointer;
+}
+.top-chart{
+  height: 36.784vw;
+  display: flex;
+}
+.left-chart{
+  font-family: 'Open Sans', sans-serif;  
+  width: 30%;
+  margin-left:3%;
+  margin-right:3%;
+}
+.right-chart{
+  width: 70%;
+}
+.himheader-img{
+  width: 95%;
+  height:36.784vw;
+}
+.shop-text{
+  font-family: 'Open Sans', sans-serif;
+  margin:2.627vw 0 1.051vw 0;
+}
+
+.shop-goods{
+  margin:1.051vw 3.678vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom{
+  height: 26.274vw;
+  background-color: #FBF3EC;
+  display: flex;
+}
+.bottom-1{
+  width: 20%;
+  margin:5.255vw 2.627vw 0 3.678vw;
+  cursor: pointer;
+}
+.bottom-2{
+  width: 20%;
+  margin:5.255vw 0  0  0vw;
+  cursor: pointer;
+}
+.bottom-3{
+  width: 50%;
+  margin:5.255vw 2.627vw 0 3.678vw;
+}
+.bottom-img{
+  width: 100%;
+  display: flex;
+}

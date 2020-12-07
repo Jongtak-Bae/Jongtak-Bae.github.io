@@ -1,0 +1,413 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+a:link{text-decoration:none; color:black }
+a:visited{text-decoration:none; color:black}
+a:hover{text-decoration:none;color:#B81226}
+a:active{text-decoration:none;color:#B81226}
+.top-bar {
+  background-color: #e9c5ac;
+  height: 3.153vw;
+  font-family: 'Open Sans', sans-serif;
+}
+.top-bar-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3vw;
+  line-height: 3.153vw;
+  text-align: center;
+  cursor: pointer;
+}
+.top-logo {
+  margin-top: 1.314vw;
+  height: 6.831vw;
+  display: flex;
+  justify-content: center;
+}
+.logo-img {
+  height: 7vw;
+  width: 7vw;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.top-logo-text {
+  font-family: 'Sofia', cursive;
+  font-size: 3.678vw;
+  line-height: 8.831vw;
+  color: #B81226;
+  cursor: pointer;
+}
+.top-search {
+  height: 4.204vw;
+}
+.left-top-search {
+  margin-left: 2.627vw;
+  float: left;
+}
+.top-search-img {
+  height:3.153vw;
+  width: 3.153vw;
+  vertical-align:middle;
+}
+.top-search-text {
+  font-family: 'Sofia', cursive;
+  font-size: 1.314vw;
+  line-height: 3.153vw;
+  color: #605454;
+  cursor: pointer;
+}
+.right-top-search {
+  float: right;
+  margin-right: 1.576vw;
+}
+.top-line {
+  border: 0.053vw solid black;
+}
+.top-click-bar {
+  width: 80rpx;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  justify-content: space-between;
+  margin:0 5.255vw;
+  cursor: pointer;
+}
+.top-chart{
+  height: 36.784vw;
+  display: flex;
+}
+.left-chart{
+  font-family: 'Open Sans', sans-serif;  
+  width: 30%;
+  margin-left:3%;
+  margin-right:3%;
+}
+.right-chart{
+  width: 70%;
+}
+.herheader-img{
+  width: 95%;
+  height:36.784vw;
+}
+
+.sub-title{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+input[type=email], input[type=password] {
+  width: 90%;
+  padding: 5%;
+  margin: 5%;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  margin-left: auto;
+  margin-right:auto;
+  font-size: 1vw;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  margin: 8px 0;
+  background-color: #f44336;
+  float: left;
+  color: white;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  opacity: 0.9;
+
+}
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #55555596;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 30%; 
+}
+
+hr {
+  border: px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-family: 'Sofia', cursive;
+   font-size: 30px;
+
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+
+.row {
+  display: flex;
+  position: relative;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+}
+
+.home-content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn1{
+  position: absolute;
+  top: 80%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FBF3EC;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2vw;
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  width:16%;
+}
+
+.btn1:hover {
+  background-color: grey;
+}
+
+.btn2{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FBF3EC;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2vw;
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  width:16%;
+}
+
+.btn2:hover {
+  background-color: grey;
+}
+
+.btn3{
+  position: absolute;
+  top: 80%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FBF3EC;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2vw;
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  width:16%;
+}
+
+.btn3:hover {
+  background-color: grey;
+}
+
+.promotion-container{
+  display: flex;
+}
+
+.bottom-container {
+  flex: 50%;
+  padding: 15px;
+}
+
+.promotion-title{
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bottom{
+  height: 26.274vw;
+  background-color: #FBF3EC;
+  display: flex;
+}
+.bottom-1{
+  width: 20%;
+  margin:5.255vw 2.627vw 0 3.678vw;
+  cursor: pointer;
+}
+.bottom-2{
+  width: 20%;
+  margin:5.255vw 0  0  0vw;
+  cursor: pointer;
+}
+.bottom-3{
+  width: 50%;
+  margin:5.255vw 2.627vw 0 3.678vw;
+}
+.bottom-img{
+  width: 100%;
+  display: flex;
+}
+.topBannerText{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  width:100%;
+}
+.bodyTextTitle1{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
+  text-align: left;
+  width:100%;
+}
+.bodyText1{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  text-align: left;
+  float:left;
+  width:100%;
+}
+.body1 {
+  display: flex;
+  float:right;
+}
+.bodyTextTitle2{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
+  text-align: left;
+  float:right;
+  width:100%;
+}
+.bodyText2{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  text-align: left;
+  float:right;
+  width:100%;
+}
+.body2 {
+  display: flex;
+  float:left;
+}
+.bottomBannerText{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  width:100%;
+}
+.bodyTextTitle3{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
+  text-align: left;
+  width:100%;
+}
+.bodyText3{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  text-align: left;
+  width:100%;
+}
+.influencerText {
+  background-color: orange;
+}
+.mainContent{
+  margin-left: 20%;
+  margin-right: 20%;
+}

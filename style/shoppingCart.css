@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+   /*header and footer style*/
+  a:link{text-decoration:none; color:black }
+  a:visited{text-decoration:none; color:black}
+  a:hover{text-decoration:none;color:#B81226}
+  a:active{text-decoration:none;color:#B81226}
+  .top-bar {
+    background-color: #e9c5ac;
+    height: 3.153vw;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .top-bar-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    line-height: 3.153vw;
+    text-align: center;
+    cursor: pointer;
+  }
+  .top-logo {
+    margin-top: 1.314vw;
+    height: 6.831vw;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-img {
+    height: 7vw;
+    width: 7vw;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .top-logo-text {
+    font-family: 'Sofia', cursive;
+    font-size: 3.678vw;
+    line-height: 8.831vw;
+    color: #B81226;
+    cursor: pointer;
+  }
+  .top-search {
+    height: 4.204vw;
+  }
+  .left-top-search {
+    margin-left: 2.627vw;
+    float: left;
+  }
+  .top-search-img {
+    height:3.153vw;
+    width: 3.153vw;
+    vertical-align:middle;
+  }
+  .top-search-text {
+    font-family: 'Sofia', cursive;
+    font-size: 1.314vw;
+    line-height: 3.153vw;
+    color: #605454;
+    cursor: pointer;
+  }
+  .right-top-search {
+    float: right;
+    margin-right: 1.576vw;
+  }
+  .top-line {
+    border: 0.053vw solid black;
+  }
+  .top-click-bar {
+    width: 80rpx;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    justify-content: space-between;
+    margin:0 5.255vw;
+    cursor: pointer;
+  }
+  .top-chart{
+    height: 36.784vw;
+    display: flex;
+  }
+  .left-chart{
+    font-family: 'Open Sans', sans-serif;  
+    width: 30%;
+    margin-left:3%;
+    margin-right:3%;
+  }
+  .right-chart{
+    width: 70%;
+  }
+  .himheader-img{
+    width: 95%;
+    height:36.784vw;
+  }
+  .shop-text{
+    font-family: 'Open Sans', sans-serif;
+    margin:2.627vw 0 1.051vw 0;
+  }
+  
+  .shop-goods{
+    margin:1.051vw 3.678vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .bottom{
+    height: 26.274vw;
+    background-color: #FBF3EC;
+    display: flex;
+  }
+  .bottom-1{
+    width: 20%;
+    margin:5.255vw 2.627vw 0 3.678vw;
+    cursor: pointer;
+  }
+  .bottom-2{
+    width: 20%;
+    margin:5.255vw 0  0  0vw;
+    cursor: pointer;
+  }
+  .bottom-3{
+    width: 50%;
+    margin:5.255vw 2.627vw 0 3.678vw;
+  }
+  .bottom-img{
+    width: 100%;
+    display: flex;
+  }
+  
+  /* content style start */
+
+  #hamburger-menu{
+    padding: 2em;
+  }
+
+  h1{
+    font-style: italic;
+    font-weight: 500;
+    margin:1em;
+  }
+
+  #items-list{ 
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+  }
+  #items-list img{
+    width: 300px;
+    height: 100%;
+  }
+
+  .items{
+    display:flex;
+    margin: 2em 2em;
+    
+  }
+
+  .item-right-info{
+    padding: 0 2em;
+    flex-basis: 60%;
+    position: relative;
+  }
+  #items-list .price{
+    margin: 2em 0;
+  }
+  .quantity-and-total{
+    display: flex;
+    justify-content:space-between;
+
+  }
+  .quantity 
+
+  .quantity-number div {
+    display: inline-block;
+    width: 40px;
+    height:26px;
+    text-align: center;
+    margin: -4px;
+  }
+  .delete-item{
+    position: absolute;
+    right:1em;
+    cursor:default;
+    
+  }
+  .quantity-number input{
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  h6{
+    font-size:1em;
+    font-weight:600;
+    margin: 0.5em 0;
+  }
+
+  main{
+   
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h4{
+    font-size: 1.5em;
+  }
+
+  #right-checkout{
+    width: 300px;
+    margin-right:2em;
+
+  }
+
+  #order-summary{
+    width:90%;
+    height: 300px; 
+    border: 1px #ccc solid;
+    margin: auto;
+    margin-top:2em;
+    padding-left:10%;
+    padding-top: 10%;
+  }
+  #order-summary>p:nth-child(even){
+    margin-top:2em ;
+  }
+
+  #order-summary p:last-child{
+   font-weight: 800;
+   font-size: 2em;
+  }
+  #order-info{
+    display: flex;
+    align-items: center;
+    margin-top:1em ;
+    justify-content: space-between;
+  }
+  #order-info p{
+    margin-left: 4px;
+    font-size: 0.8em;
+  }
+
+  button{
+    display: block;
+    width: 300px;
+    height: 76px;
+    margin: 1em auto;
+    font-size: 2em;
+    background-color: #B81226;
+    border: none;
+    color:white;
+    border-radius: 6px;
+  }
+
+
+/*recent view*/
+
+#recent-view{
+  display: flex;
+  padding-left:1em;
+  justify-content: center;
+}
+.recent-item{
+ text-align: center;
+ margin-right: 2.7em;
+}
+.recent-item img{
+  width: 300px;
+  height: 300px;
+
+}
+
+.recent-item :nth-child(3){
+  color: #999;
+}
+/*feature*/
+#features ul{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-top: 1px #ccc solid;
+  margin-top: 2em;
+}
+
+.feature-item{
+  display: flex;
+  margin: 0 2em;
+}
+
+.feature-item p{
+  margin-left: 1em;
+  font-size: 2vw;
+  margin-top: 2em;
+  font-style: italic;
+}
+
+/********The Modal (background)**********/
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+#model-wrap{
+  position: relative;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  position: absolute;
+  top:20px;
+  right: 100px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Model input*/
+.modal-content input{
+  height: 2em;
+}
+
+/*Model input label*/
+.modal-content p{
+  margin-top: 1em;
+}
+
+.modal-content select{
+  height: 2em;
+}
+
+.modal-content h2{
+  margin: 1em 0;
+}
+#buy-button{
+  width: 100px;
+  display: block;
+  margin: 2em 0;
+}

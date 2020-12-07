@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ForHer</title>
+
+    <!-- Google Fonts integration: http://www.google.com/fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sofia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/ForHer.css">
+  </head>
+<meta name="viewport" content="width=1024">
+  <body >
+    <div class="top-bar">
+      <p class="top-bar-text">
+        FREE SAME DAY LOCAL PICKUP FOR THE HOLIDAYS & FREE SHIPPING ON ORDER
+        $80+(BEFORE TAX)*
+        <a style="text-decoration: underline">LEARN MORE</a>
+      </p>
+    </div>
+    <div class="top-logo">
+      <a href="index.html">
+      <img src="image/logo.png" alt="" class="logo-img"/></a>
+       <a href="index.html">
+      <p class="top-logo-text"> &nbsp Surprises Inside</p> </a>
+    </div>
+    <div class="top-search">
+      <div class="left-top-search">
+        <img src="image/search.png" alt="" class="top-search-img" />
+        <text class="top-search-text">Search</text>
+      </div>
+      <div class="right-top-search">
+        <img src="image/account.png" alt="" class="top-search-img" />
+        <text class="top-search-text">Account &nbsp</text>
+        <a href="shoppingCart.html">
+        <img src="image/cart.png" alt="" class="top-search-img" />
+        </a>
+        <text class="top-search-text">Cart</text>
+      </div>
+    </div>
+    <div class="top-line"></div>
+    <div class="top-click-bar" id="top-click-bar">
+    </div>
+    <div class="top-chart">
+      <div class="left-chart">
+          <div style="margin:2.627vw 0 1.576vw 0;font-size:1.682vw; line-height: 2.365vw;border-bottom:0.053vw solid #000; width:80%;color:#B81226;"> <strong>For Her</strong> </div>
+          <div style="margin:0px 0 1.576vw 0;font-size:1.997vw;line-height: 4.204vw;">Perfect gift for the women in your life.</div>
+          <div style="margin:1.051vw 0 1.576vw 0;font-size:1.576vw;line-height: 2.102vw;">Gift ideas for women when special occassions come around.</div>
+          <button style="background-color: #DC977C ;color:white; width: 40%;font-size:1.576vw;line-height: 3.102vw; cursor: pointer;">Shop All</button>
+      </div>
+      <div class="right-chart">
+        <img src="image/For Her/herheader.png" alt="" class="herheader-img" />
+      </div>
+    </div>
+    <div class="shop">
+      <div class="shop-text">
+
+      
+      <div  style="font-size: 3.153vw; font-family: 'Sofia', cursive;line-height: 5.255vw;text-align: center;">Shop by Category</div>
+      
+
+      <div style="display: flex;justify-content: space-between;margin:0 10.51vw" id="shop-click-bar">
+      </div>
+      <div class="shop-goods" id="shop-goods">
+      </div>
+    </div>
+    <!--Footer-->
+        <div class="bottom">
+            <div class="bottom-1">
+                <div
+                    style="font-size:1.314vw; font-family: 'Open Sans', sans-serif;font-weight: bold; margin-bottom: 1.576vw;">COMPANY</div>
+                <div
+                    style="font-size:1.051vw; font-family: 'Open Sans', sans-serif;line-height: 2.365vw;">
+                    <a href="AboutUs.html">About us</a><br>
+                    <a>Customer Reviews</a><br>
+                    <a>Terms and Conditions</a><br>
+                    <a>Privacy Policy</a><br>
+                    <a href="Covid.html">COVID-19 Update</a>
+                </div>
+            </div>
+            <div class="bottom-2">
+                <div
+                    style="font-size:1.314vw; font-family: 'Open Sans', sans-serif;font-weight: bold; margin-bottom: 1.576vw;">ORDERING</div>
+                <div
+                    style="font-size:1.051vw; font-family: 'Open Sans', sans-serif;line-height: 2.365vw;">
+                    <a href="Shipping.html">Shipping Information</a><br>
+                    <a>One-Year Warranty</a><br>
+                    <a>Surprises Inside Gift Cards</a><br>
+                    <a>VIP Rewards</a><br>
+                    <a>PaymentPlans</a>
+                </div>
+            </div>
+        <div class="bottom-3">
+          <div style="font-size:1.314vw;font-weight: bold; font-family: 'Open Sans', sans-serif; margin-bottom: 0.263vw;">JOIN THE LIST & GET 10% OFF ONLINE</div>
+          <input style="width: 75%;height: 2.627vw;font-size:1.576vw" placeholder="Enter your email"/>
+          <button style="width: 20%;height: 3.1vw;font-size:1.051vw;color:white;background-color: #DC977C;margin-bottom:1.051vw;cursor: pointer;">SUBSCRIBE</button>
+          <div style="font-size:1.314vw; font-family: 'Open Sans', sans-serif;font-weight: bold; margin-bottom: 1.051vw;">STAY CONNECTED</div>
+          <div class="bottom-img" id="bottom-img"></div>
+        </div>
+        </div>
+    </div>
+  </body>
+  <script>
+    var topText=["Top Gift","For Her","For Him","Kids Gifts","Personalised Gift","Sale!","The Company"]
+    var shopText=["Wellness","Food","Fashion","Bar & Cocktails","Tea & Coffee","Sports"]
+    var goodsImg=["image/For Her/her1.jpg","image/For Her/her2.jpg","image/For Her/her3.jpg","image/For Her/her4.jpg","image/For Her/her5.jpg","image/For Her/her6.jpg","image/For Her/her7.jpg","image/For Her/her8.jpg","image/For Her/her9.jpg","image/For Her/her10.jpg","image/For Her/her11.jpg","image/For Her/her12.jpg"]
+    var goodsText=["Leather Smartphone Wallet","Leather Passport + Luggage Tag Gift Set","Leather Travel Jewelry Case","For The Girls Travel Pouch Set","Genuine Leather Tote","Reasons I Love You Stones","The Color Of Love Infinity Necklace","Leather Travel Manicure Kit","For The Girls Purse Mirror Set","A Date To Remember Pendant","Ceramic Trinket Tray","Hidden Message Locket"]
+    var goodsAuthor=["by Royce Leather","by Royce Leather","by Royce Leather","by Love & Lore","by Colombian Vaquetta","by Love & Lore","by Jewlr","by Luckies of London","by RedEnvelope","by Jewlr","by Love & Lore","by Jewlr"]
+    var goodsPrice=[130.49,97.49,97.49,39.50,149.99,35.99,89.99,89.99,79.50,59.99,29.50,79.99]
+    var bottomImg=["image/facebook.png","image/twitter.png","image/pinterest.png","image/instagram.png"]
+    var topdiv=  document.getElementById("top-click-bar")
+    for (var i = 0; i < 7; i++) {
+      var re = document.createElement("a");
+      re.style.fontSize="1.839vw"
+      re.style.lineHeight="3.153vw"
+      re.innerText = topText[i];
+      topdiv.appendChild(re)
+    }
+
+    var navItem = document.querySelector('#top-click-bar').getElementsByTagName('a');
+    console.log(navItem);
+    navItem[1].setAttribute('href','ForHer.html');
+    navItem[2].setAttribute('href','ForHim.html');
+    navItem[6].setAttribute('href','AboutUs.html');
+
+
+    var shopdiv =  document.getElementById("shop-click-bar")
+    for(var i=0;i<6;i++){
+      var re= document.createElement("a");
+      re.style.fontSize="1.892vw"
+      re.style.lineHeight="3.153vw"
+      re.innerText = shopText[i]
+      var line = document.createElement("text");
+      line.style.fontSize="1.892vw"
+      line.style.lineHeight="3.153vw"
+      line.innerText = "|"
+      shopdiv.appendChild(re)
+      if(i<5)
+      shopdiv.appendChild(line)
+    }
+    var shopGoods = document.getElementById("shop-goods")
+    for(var i=0;i<12;i++){
+      var _goods=document.createElement("div")
+      _goods.style.width="22%";
+      var _goodsImg = document.createElement("img");
+      _goodsImg.src=goodsImg[i];
+      if(i%4!=0){
+        _goodsImg.style.marginRight="0.263vw"
+      }
+      _goodsImg.style.width="100%";
+      var _goodsText = document.createElement("div");
+      _goodsText.innerHTML=goodsText[i];
+      _goodsText.style.height="3.783vw";
+      _goodsText.style.fontSize="1.576vw"
+      _goodsText.style.lineHeight="1.892vw"
+      _goodsText.style.marginBottom="0.788vw"
+      _goodsText.style.textAlign="center"
+      var _goodsAuthor = document.createElement("div");
+      _goodsAuthor.innerHTML=goodsAuthor[i]
+      _goodsAuthor.style.color="grey"
+      _goodsAuthor.style.fontSize="1.051vw"
+      _goodsAuthor.style.lineHeight="1.051vw"
+      _goodsAuthor.style.textAlign="center"
+      _goodsAuthor.style.marginBottom="0.525vw"
+      var _goodsPrice = document.createElement("div")
+      _goodsPrice.innerHTML="$"+goodsPrice[i]
+      _goodsPrice.style.fontSize="1.576vw"
+      _goodsPrice.style.lineHeight="1.892vw"
+      _goodsPrice.style.marginBottom="1.576vw"
+      _goodsPrice.style.textAlign="center"
+      _goods.append(_goodsImg)
+      _goods.append(_goodsText)
+      _goods.append(_goodsAuthor)
+      _goods.append(_goodsPrice)
+      shopGoods.append(_goods);
+    }
+    var _bottomImg = document.getElementById("bottom-img")
+    for(var i=0;i<4;i++){
+      var img =document.createElement("img");
+      img.src=bottomImg[i];
+      img.style.borderRadius="50%"
+      img.style.width="4.204vw";
+      img.style.height="4.204vw";
+      img.style.marginRight="1.576vw";
+      _bottomImg.append(img)
+    }
+  </script>
+</html>
