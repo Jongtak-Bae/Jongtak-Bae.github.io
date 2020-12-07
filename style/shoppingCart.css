@@ -327,8 +327,8 @@
 .close {
   color: #aaa;
   position: absolute;
-  top:20px;
-  right: 100px;
+  top:2%;
+  right: 10%;
   font-size: 28px;
   font-weight: bold;
 }
